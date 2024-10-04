@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Electrolize", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('img/solid-navy-blue-concrete-textured-wall.jpg'); /* Arka plan resmi yolu */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat; /* Resmi tekrar etme */
+    background-size: cover; /* Tüm alanı kapla */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Sayfanın arka planına yarı saydam renk */
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+main {
+    flex: 1; /* Ana içeriğin esneklik kazanmasını sağlar */
+    display: flex; /* Flexbox kullan */
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    text-align: center; /* Metni merkezde hizala */
+    color: white; /* Metin rengi beyaz */
+  
+}
+
+
+.contentt{
+    color: white;
+}
+
+section{
+    padding: 50px;
+    padding-bottom: 350px;
+}
+
+.video{
+    text-align: center; /* Video altında yazının ortalanması için */
+}
+
+video{
+    max-width: 100%; /* Cihaz genişliğine göre ayarlama */
+    height: auto; /* Orantılı yükseklik */
+
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Sayfanın arka planına yarı saydam renk */
+    color: rgb(218, 218, 218);
+    text-align: center;
+    padding: 5px 0;
+}
+
+
