@@ -1,0 +1,1 @@
+Domain adresine [buradan](https://dazzling-tarsier-9c49da.netlify.app/) ulaşabilirsiniz
