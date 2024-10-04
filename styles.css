@@ -47,12 +47,12 @@ header {
 
 
 main {
-    flex: 1; /* Ana içeriğin esneklik kazanmasını sağlar */
-    display: flex; /* Flexbox kullan */
-    justify-content: center; /* Yatayda ortala */
-    align-items: center; /* Dikeyde ortala */
-    text-align: center; /* Metni merkezde hizala */
-    color: white; /* Metin rengi beyaz */
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: white; 
   
 }
 
@@ -67,19 +67,19 @@ section{
 }
 
 .video{
-    text-align: center; /* Video altında yazının ortalanması için */
+    text-align: center; 
 }
 
 video{
-    max-width: 100%; /* Cihaz genişliğine göre ayarlama */
-    height: auto; /* Orantılı yükseklik */
+    max-width: 100%; 
+    height: auto;
 
 }
 
 
 
 footer {
-    background-color: rgba(0, 0, 0, 0.6); /* Sayfanın arka planına yarı saydam renk */
+    background-color: rgba(0, 0, 0, 0.6); 
     color: rgb(218, 218, 218);
     text-align: center;
     padding: 5px 0;
